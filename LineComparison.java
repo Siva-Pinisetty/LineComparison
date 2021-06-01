@@ -14,11 +14,11 @@ public static void main(String[] args) {
 	int y2=sc.nextInt();	
 	System.out.println("enter the a1 value for Line2:");
 	int a1=sc.nextInt();
-	System.out.println("enter the b1 value for Line1:");
+	System.out.println("enter the b1 value for Line2:");
 	int b1=sc.nextInt();
-	System.out.println("enter the a2 value for Line1:");
+	System.out.println("enter the a2 value for Line2:");
 	int a2=sc.nextInt();
-	System.out.println("enter the b2 value for Line1:");
+	System.out.println("enter the b2 value for Line2:");
 	int b2=sc.nextInt();
 	float length1=(float) Math.sqrt(Math.pow(x2-x1,2)+ Math.pow(y2-y1,2));
 	System.out.println("Length of LINE1 b/n points "+"("+x1+","+y1+") & "+"("+x2+","+y2+") "+"is "+length1);
