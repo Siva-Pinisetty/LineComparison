@@ -30,9 +30,13 @@ public static void main(String[] args) {
     {
     	System.out.println("Both Line1 and Line2 are equal");
     }
+    else if(val > 0)
+    {
+    	System.out.println("Length of Line1 is greater then Line2");
+    }
     else
     {
-    	System.out.println("Both Line1 and Line2 are not equal");
+    	System.out.println("Length of Line1 is lesser then Line2");
     }
 }
 }
